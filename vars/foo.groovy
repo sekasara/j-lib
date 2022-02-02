@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 @Grapes([
     @Grab (group = 'org.codehaus.groovy.modules.http-builder', module = 'http-builder', version = '0.7.1'),
     @Grab (group='javax.xml.bind', module='jaxb-api', version='2.3.1'),
@@ -9,7 +11,7 @@ import groovy.json.JsonOutput
 import groovy.xml.XmlSlurper
 import groovyx.net.http.RESTClient
 
-#!/usr/bin/env groovy
+
 
 def call() {
     UploadAPIWrapper uploadAPIWrapper = new UploadAPIWrapper();
