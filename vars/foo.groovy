@@ -8,3 +8,13 @@ import com.veracode.apiwrapper.wrappers.*
 import groovy.json.JsonOutput
 import groovy.xml.XmlSlurper
 import groovyx.net.http.RESTClient
+
+#!/usr/bin/env groovy
+
+def call() {
+    UploadAPIWrapper uploadAPIWrapper = new UploadAPIWrapper();
+    SandboxAPIWrapper sandboxAPIWrapper = new SandboxAPIWrapper();
+    ResultsAPIWrapper resultsAPIWrapper = new ResultsAPIWrapper();
+    
+    println(uploadAPIWrapper)
+}
