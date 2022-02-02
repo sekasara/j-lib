@@ -8,8 +8,6 @@
 
 import com.veracode.apiwrapper.wrappers.*
 import groovy.json.JsonOutput
-import groovy.xml.XmlSlurper
-import groovyx.net.http.RESTClient
 
 
 
