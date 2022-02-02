@@ -17,4 +17,6 @@ def call() {
     ResultsAPIWrapper resultsAPIWrapper = new ResultsAPIWrapper();
     
     println(uploadAPIWrapper)
+    
+    println("Hello")
 }
