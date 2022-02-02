@@ -11,7 +11,7 @@ import groovy.json.JsonOutput
 
 
 
-def call() {
+def call(int n) {
     UploadAPIWrapper uploadAPIWrapper = new UploadAPIWrapper();
     SandboxAPIWrapper sandboxAPIWrapper = new SandboxAPIWrapper();
     ResultsAPIWrapper resultsAPIWrapper = new ResultsAPIWrapper();
